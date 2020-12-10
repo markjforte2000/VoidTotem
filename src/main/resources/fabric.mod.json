@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "void-totem",
+  "version": "${version}",
+  "name": "Void Totem",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/void-totem/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "us.markforte.voidtotem.client.VoidTotemClient"
+    ],
+    "main": [
+      "us.markforte.voidtotem.VoidTotem"
+    ]
+  },
+  "mixins": [
+    "void-totem.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.10.8",
+    "fabric": "*",
+    "minecraft": "1.16.3"
+  }
+}
